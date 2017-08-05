@@ -1,5 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --update curl && \
+RUN apk add --update curl \
+                     nmap \
                      openssl && \
-    rm -rf /var/cache/apk/*
+    rm -rf /var/cache/apk/*   
