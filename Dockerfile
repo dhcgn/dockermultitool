@@ -5,3 +5,5 @@ RUN apk add --update curl \
                      openssl \
                      apache2-utils \ 
     &&  rm -rf /var/cache/apk/*   
+
+RUN ab -V    
