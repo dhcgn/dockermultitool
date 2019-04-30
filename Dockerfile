@@ -6,4 +6,5 @@ RUN apk add --update curl \
                      openssl \
                      apache2-utils \ 
                      vim \ 
+                     file \ 
     &&  rm -rf /var/cache/apk/*      
