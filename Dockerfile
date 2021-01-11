@@ -8,4 +8,5 @@ RUN apk add --update curl \
                      vim \ 
                      file \ 
                      iperf3 \ 
+                     git \ 
     &&  rm -rf /var/cache/apk/*      
