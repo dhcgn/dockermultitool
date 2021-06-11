@@ -9,4 +9,5 @@ RUN apk add --update curl \
                      file \ 
                      iperf3 \ 
                      git \ 
+                     cloc \
     &&  rm -rf /var/cache/apk/*      
