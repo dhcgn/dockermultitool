@@ -10,4 +10,7 @@ RUN apk add --update curl \
                      iperf3 \ 
                      git \ 
                      cloc \
+                     go \
+                     musl-dev \
+                     util-linux-dev \
     &&  rm -rf /var/cache/apk/*      
