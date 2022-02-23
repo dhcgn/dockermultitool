@@ -13,4 +13,5 @@ RUN apk add --update curl \
                      go \
                      musl-dev \
                      util-linux-dev \
+                     cloc \
     &&  rm -rf /var/cache/apk/*      
